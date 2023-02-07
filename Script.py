@@ -2,21 +2,16 @@
 
 class script(object):
   START_TXT = """
-  𝙷𝚎𝚕𝚕𝚘 {}, 𝙸'𝚊𝚖 <a href='https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template'>Pyrogram Bot</a>
-  𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙱𝚘𝚝.  
+  𝙷𝚎𝚕𝚕𝚘 {}, 𝙸'𝚊𝚖 𝙰 𝚂𝚞𝚙𝚎𝚛𝚏𝚊𝚜𝚝 𝚂𝚑𝚊𝚛𝚎𝙲𝚑𝚊𝚝 𝚅𝚒𝚍𝚎𝚘 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 𝚆𝚒𝚝𝚑𝚘𝚞𝚝 𝚆𝚊𝚝𝚎𝚛𝚖𝚊𝚛𝚔.  
   """
   
   HELP_TXT = """
-  add help message for users
+  𝙹𝚞𝚜𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚝𝚑𝚎 𝚕𝚒𝚗𝚔 𝚘𝚏 𝚜𝚑𝚊𝚛𝚎𝚌𝚑𝚊𝚝 𝚟𝚒𝚍𝚎𝚘
   """
   
   ABOUT_TXT = """
-✯ 𝙼𝚢 𝙽𝚊𝚖𝚎 : <a href='https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template'>Pyrogram Bot</a>
-✯ 𝙻𝚒𝚋𝚛𝚊𝚛𝚢 : <a href='https://docs.pyrogram.org/'>𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 v𝟷.𝟸.𝟸𝟶</a>
+✯ 𝙼𝚢 𝙽𝚊𝚖𝚎 : <a href='https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template'>Adarsh</a>
 ✯ 𝚂𝚎𝚛𝚟𝚎𝚛 : <a href='https://dashboard.heroku.com/'>𝙷𝚎𝚛𝚘𝚔𝚞</a>
 ✯ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 : <a href='https://docs.python.org/3/'>𝙿𝚢𝚝𝚑𝚘𝚗 𝟹.𝟿.𝟿</a>
 ✯ 𝙳𝚊𝚝𝚊𝙱𝚊𝚜𝚎 : <a href='https://mongodb.com/'>𝙼𝚘𝚗𝚐𝚘𝙳𝙱</a>
-✯ 𝙱𝚊𝚜𝚎 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 : <a href='https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template'>Pyrogram Telegram Bot Template</a>
-✯ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 : <a href='https://t.me/TMWAD'>𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎</a>
-✯ 𝙼𝚊𝚒𝚗𝚝𝚎𝚗𝚊𝚗𝚌𝚎 : <a href='https://github.com/kalanakt'>𝙷𝚊𝚜𝚑𝙼𝚒𝚗𝚗𝚎𝚛</a>
 """
