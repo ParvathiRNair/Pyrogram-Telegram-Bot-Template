@@ -67,7 +67,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=START_TXT.format(cmd.from_user.first_name),
+            text="𝙸'𝚊𝚖 𝙰 𝚂𝚞𝚙𝚎𝚛𝚏𝚊𝚜𝚝 𝚂𝚑𝚊𝚛𝚎𝙲𝚑𝚊𝚝 𝚅𝚒𝚍𝚎𝚘 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 𝚆𝚒𝚝𝚑𝚘𝚞𝚝 𝚆𝚊𝚝𝚎𝚛𝚖𝚊𝚛𝚔.",
             reply_markup=reply_markup,
             disable_web_page_preview=True
         )
