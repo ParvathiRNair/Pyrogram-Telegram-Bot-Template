@@ -10,7 +10,7 @@ class script(object):
   """
   
   ABOUT_TXT = """
-✯ 𝙼𝚢 𝙽𝚊𝚖𝚎 : <a href='https://github.com/kalanakt/Pyrogram-Telegram-Bot-Template'>Adarsh</a>
+✯ 𝙼𝚢 𝙽𝚊𝚖𝚎 : <a href='https://t.me/itzzzmeadarsh'>Adarsh</a>
 ✯ 𝚂𝚎𝚛𝚟𝚎𝚛 : <a href='https://dashboard.heroku.com/'>𝙷𝚎𝚛𝚘𝚔𝚞</a>
 ✯ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 : <a href='https://docs.python.org/3/'>𝙿𝚢𝚝𝚑𝚘𝚗 𝟹.𝟿.𝟿</a>
 ✯ 𝙳𝚊𝚝𝚊𝙱𝚊𝚜𝚎 : <a href='https://mongodb.com/'>𝙼𝚘𝚗𝚐𝚘𝙳𝙱</a>
