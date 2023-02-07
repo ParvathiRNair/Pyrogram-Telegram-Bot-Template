@@ -16,4 +16,4 @@ async def share(bot, cmd):
 	    video_url = re.search(r'property="og:video" content="(.*?)"', response.text).group(1)
 	    print(video_url);
 	    video_link = video_url
-	    bot.send_video(chat_id=message.chat.id, video=video_url,caption="Thank You For Using Me :)")
+	    bot.send_video(chat_id=bot.chat.id, video=video_url,caption="Thank You For Using Me :)")
