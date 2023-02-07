@@ -67,7 +67,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=START_TXT,
+            text=START_TXT.format(cmd.from_user.first_name),
             reply_markup=reply_markup,
             disable_web_page_preview=True
         )
