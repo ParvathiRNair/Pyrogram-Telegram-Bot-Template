@@ -22,8 +22,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⚡Back", callback_data='start_cb')
           ],
           [
-            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/kinu6'),
-            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/TMWAD")
+            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/itzzzmeadarsh')
           ],
           [
             InlineKeyboardButton("🧿Close", callback_data='close')
@@ -43,8 +42,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⚡Back", callback_data='start_cb')
           ],
           [
-            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/kinu6'),
-            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/TMWAD")
+            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/itzzzmeadarsh')
           ],
           [
             InlineKeyboardButton("🧿Close", callback_data='close')
