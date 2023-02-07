@@ -47,22 +47,3 @@ async def help(bot, cmd):
 			]
 		)
 	)
-    
-@Client.on_message(filters.command("about") & filters.private)
-async def start(bot, cmd):	
-	await cmd.reply_text(
-		ABOUT_TXT, 
-		disable_web_page_preview=True,
-		reply_markup=InlineKeyboardMarkup(
-			[
-				[
-					InlineKeyboardButton("🔮Help", callback_data='help_cb'),
-					InlineKeyboardButton("⚡Back", callback_data='start_cb')
-				],
-				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/kinu6'),
-					InlineKeyboardButton("⚙️Update Channel", url="https://t.me/TMWAD")
-				]
-			]
-		)
-	)
