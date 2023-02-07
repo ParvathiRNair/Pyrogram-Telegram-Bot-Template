@@ -2,4 +2,3 @@ pyrogram
 tgcrypto
 pyromod
 pymongo[srv]==3.12.3
-aiohttp
