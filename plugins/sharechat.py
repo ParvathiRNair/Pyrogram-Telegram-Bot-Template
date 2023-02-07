@@ -5,6 +5,7 @@ import asyncio
 import sys
 import os
 import requests
+import re
 @Client.on_message(filters.text)
 async def share(bot, cmd):
 	print(cmd)
