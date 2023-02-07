@@ -4,3 +4,7 @@ from Script import script
 import asyncio
 import sys
 import os
+
+@Client.on_message(filters.text)
+async def share(bot, cmd):
+	print(cmd)
