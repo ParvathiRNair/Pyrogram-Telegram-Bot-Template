@@ -15,7 +15,7 @@ db = client["mydatabase"]
 collection = db["group_timers"]
 
 @Client.on_message(filters.group)
-def delete_after_time(client, message):
+async def delete_after_time(client, message):
     group_id = message.chat.id
     
     # Check if there's a timer set for this group
@@ -30,7 +30,7 @@ def delete_after_time(client, message):
         if time_difference > timer["time"]:
             await client.delete_messages(chat_id=group_id, message_ids=message.message_id)
 @Client.on_message(filters.command("set_timer"))
-def set_timer(client, message):
+async def set_timer(client, message):
     # Check if the user is an administrator
     if message.chat.type == "group" and message.from_user.status in ["administrator", "creator"]:
         # Extract the timer value from the message
