@@ -28,7 +28,7 @@ def delete_after_time(client, message):
         
         # If the time difference is greater than the timer, delete the message
         if time_difference > timer["time"]:
-            client.delete_messages(chat_id=group_id, message_ids=message.message_id)
+            await client.delete_messages(chat_id=group_id, message_ids=message.message_id)
 @Client.on_message(filters.command("set_timer"))
 def set_timer(client, message):
     # Check if the user is an administrator
@@ -40,4 +40,4 @@ def set_timer(client, message):
         collection.update_one({"group_id": message.chat.id}, {"$set": {"group_id": message.chat.id, "time": timer}}, upsert=True)
         
         # Confirm the timer has been set
-        client.send_message(chat_id=message.chat.id, text="Timer set successfully!")
+        await client.send_message(chat_id=message.chat.id, text="Timer set successfully!")
