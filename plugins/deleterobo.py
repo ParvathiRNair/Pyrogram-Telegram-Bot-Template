@@ -36,7 +36,7 @@ async def set_timer(client, message):
     if message.chat.type == "group" and message.from_user.status in ["administrator", "creator"]:
         # Extract the timer value from the message
         timer = int(message.text.split(" ", 1)[1])
-        
+        print(timer)
         # Update or insert the timer in the database
         collection.update_one({"group_id": message.chat.id}, {"$set": {"group_id": message.chat.id, "time": timer}}, upsert=True)
         
