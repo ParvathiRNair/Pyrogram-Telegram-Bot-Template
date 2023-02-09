@@ -17,7 +17,8 @@ collection = db["group_timers"]
 @Client.on_message(filters.group)
 async def delete_after_time(client, message):
     group_id = message.chat.id
-    
+    print(message)
+    print(group_id)
     # Check if there's a timer set for this group
     timer = collection.find_one({"group_id": group_id})
     
