@@ -41,5 +41,3 @@ def set_timer(client, message):
         
         # Confirm the timer has been set
         client.send_message(chat_id=message.chat.id, text="Timer set successfully!")
-
-app.run()
