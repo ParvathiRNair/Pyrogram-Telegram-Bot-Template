@@ -17,5 +17,5 @@ async def share(bot, cmd):
 	    print(video_url);
 	    video_link = video_url
 	    await bot.send_video(chat_id=cmd.chat.id, video=video_url,caption="𝚃𝚑𝚊𝚗𝚔 𝚈𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙼𝚎🥰")
-    else:
-        bot.reply_text("What The Hell? Send ShareChat Video Link🚶❤️")
+	    else:
+	        message.reply_text("What The Hell? Send ShareChat Video Link🚶❤️")
