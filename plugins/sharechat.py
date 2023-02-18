@@ -18,4 +18,4 @@ async def share(bot, cmd):
 		video_link = video_url
 		await bot.send_video(chat_id=cmd.chat.id, video=video_url,caption="𝚃𝚑𝚊𝚗𝚔 𝚈𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙼𝚎🥰")
 	elif "sharechat.com" not in cmd.text:
-		bot.send_message(chat_id=cmd.chat.id,text="What The Hell? Send ShareChat Video Link🚶❤️")
+		await bot.send_message(chat_id=cmd.chat.id,text="What The Hell? Send ShareChat Video Link🚶❤️")
