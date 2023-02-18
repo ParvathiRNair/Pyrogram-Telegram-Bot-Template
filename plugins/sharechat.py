@@ -10,12 +10,12 @@ import re
 async def share(bot, cmd):
 	print(cmd)
 	if "sharechat.com" in cmd.text:
-	    url = cmd.text
+		url = cmd.text
 		rep = url.replace("post","video")
 		response = requests.get(rep)
 		video_url = re.search(r'property="og:video" content="(.*?)"', response.text).group(1)
 		print(video_url);
-	    video_link = video_url
-	    await bot.send_video(chat_id=cmd.chat.id, video=video_url,caption="𝚃𝚑𝚊𝚗𝚔 𝚈𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙼𝚎🥰")
+		video_link = video_url
+		await bot.send_video(chat_id=cmd.chat.id, video=video_url,caption="𝚃𝚑𝚊𝚗𝚔 𝚈𝚘𝚞 𝙵𝚘𝚛 𝚄𝚜𝚒𝚗𝚐 𝙼𝚎🥰")
 	else:
-        bot.reply_text("What The Hell? Send ShareChat Video Link🚶❤️")
+		bot.reply_text("What The Hell? Send ShareChat Video Link🚶❤️")
